@@ -1,0 +1,1246 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(52, 62, 81);
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+ 
+}
+/******************** header section ******************  */
+
+header {
+  height: 35px;
+  width: 100%;
+  background-color: #f6f7f9;
+  border-radius: 0px 0px 50px 50px;
+}
+.address {
+  height: 100%;
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+}
+.address i,
+.email i {
+  color: #00aeef;
+}
+header h6 {
+  margin: 10px 20px;
+  color: #53575e69;
+}
+header i {
+  margin: 0px 5px;
+}
+.email {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+.social_icons {
+  height: 100%;
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+.social_icons i {
+  margin: 7px 5px;
+  transition: 0.3s;
+}
+.social_icons i:hover {
+  color: #00aeef;
+}
+.social_icons i:first-child {
+  margin-left: 70px;
+}
+
+/******************** navbar section ******************  */
+
+nav {
+  height: 100px;
+  width: 100%;
+  position: sticky;
+  top: -3px;
+  display: flex;
+  z-index: 1;
+}
+.logo {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+}
+.logo img {
+  height: 40%;
+  width: 50%;
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+.nav_items {
+  height: 100px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.nav_items ul li {
+  display: inline-block;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+.nav_items a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 34px;
+  transition: 0.3s;
+}
+.nav_items a:hover {
+  color: #00aeef;
+}
+.booking_btn {
+  height: 100%;
+  width: 15%;
+  background-color: white;
+}
+.b_btn {
+  padding: 4px 30px;
+  margin-top: 22px;
+  background-color: #40b2df;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+  transition: 0.3s;
+  border: 2px solid #40b2df;
+}
+
+.b_btn:hover {
+  background-color: transparent;
+  border: 2px solid #40b2df;
+  color: #40b2df;
+}
+
+/******************** Home Page ******************  */
+.home_page,
+.about_page,
+.our_services,
+.pricing_page,
+.book_appoinment,
+.our_dentist,
+.latest_news_section,
+footer {
+  height: 100vh;
+  width: 100%;
+}
+.home_page {
+  background: url("../Assets/Images/img_6.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.home_page h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 77px;
+  text-align: center;
+  padding-top: 80px;
+}
+.home_page p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+  color: white;
+}
+.hsla_box {
+  height: 100%;
+  width: 100%;
+  background-color: hsla(240, 100%, 10%, 0.8);
+}
+
+.get_started_btn,
+.contact_us_btn {
+  padding: 4px 30px;
+  margin-top: 22px;
+  background-color: #40b2df;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-left: 450px;
+  border: 2px solid #40b2df;
+  transition: 0.3s;
+}
+.contact_us_btn {
+  margin-left: 15px;
+  background-color: transparent;
+  border: 2px solid #40b2df;
+}
+.contact_us_btn a {
+  color: #40b2df;
+}
+.get_started_btn:hover {
+  background-color: transparent;
+  border: 2px solid #40b2df;
+  color: #40b2df;
+}
+
+/******************** About Page ******************  */
+
+.about_page {
+  background-color: white;
+}
+.about_us_image {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding: 10px 30px;
+}
+.about_us {
+  height: 100%;
+  width: 50%;
+  float: left;
+  margin-top: 25px;
+}
+.padding_box {
+  padding: 30px;
+}
+.about_underline {
+  height: 5px;
+  width: 16%;
+  background-color: #00aeef;
+}
+.about_us h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50.4px;
+  color: rgb(51, 51, 51);
+}
+.about_us p {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(112, 112, 112);
+  margin-top: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.progress_bar_box {
+  height: 70px;
+  width: 100%;
+  float: left;
+  color: black;
+}
+.progress_bar_box span {
+  color: black;
+  float: right;
+  margin-right: 10px;
+}
+.progress_bar_line {
+  width: 100%;
+  height: 13px;
+  float: left;
+  background-color: #f4f4f4;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.progress_bar_line_1,
+.progress_bar_line_2,
+.progress_bar_line_3 {
+  height: 100%;
+  width: 80%;
+  float: left;
+  background-color: #00aeef;
+  border-radius: 10px;
+}
+.progress_bar_line_2 {
+  width: 65%;
+}
+.progress_bar_line_3 {
+  width: 85%;
+}
+
+/******************** About icons section ******************  */
+
+.about_icons,
+.review_section {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+}
+.about_icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.icon_1,
+.icon_2,
+.icon_3,
+.icon_4 {
+  height: 100%;
+  width: 22%;
+}
+.icon_1 i,
+.icon_2 i,
+.icon_3 i,
+.icon_4 i {
+  font-size: 70px;
+  margin-top: 20px;
+  color: #00aeef;
+}
+.icon_1 h2,
+.icon_2 h2,
+.icon_3 h2,
+.icon_4 h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53.2px;
+  margin-top: 10px;
+}
+.icon_1 h5,
+.icon_2 h5,
+.icon_3 h5,
+.icon_4 h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+  margin-top: 10px;
+}
+
+/******************** Services section ******************  */
+
+.our_services {
+  background: url("../Assets/Images/img_8.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+}
+.services {
+  height: 100%;
+  width: 60%;
+  padding: 100px;
+  float: left;
+}
+.services_icons {
+  height: 100%;
+  width: 100%;
+}
+.services_icons h2 {
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50.4px;
+  color: white;
+}
+.our_services_underline {
+  height: 5px;
+  width: 15%;
+  background-color: #00aeef;
+}
+.first_line_icons,
+.second_line_icons {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.first_line_icons figcaption,
+.second_line_icons figcaption {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40.4px;
+  transition: 0.3s;
+}
+.first_line_icons figcaption:hover {
+  color: #00aeef;
+}
+.second_line_icons figcaption:hover {
+  color: #00aeef;
+}
+
+.first_line_icons {
+  margin-top: 15px;
+}
+.first_icon,
+.second_icon,
+.third_icon {
+  height: 100%;
+  width: 33.3%;
+  padding-top: 15px;
+}
+.services_img {
+  height: 100%;
+  width: 40%;
+  float: right;
+  position: relative;
+  right: 60px;
+  padding: 50px;
+}
+.s_img {
+  height: 100%;
+  width: 100%;
+}
+.s_img img {
+  height: 90%;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/******************** Pricing Table Section ******************  */
+
+.pricing_page {
+  background-color: white;
+}
+.price_heading,
+.appoinment_heading,
+.dentist_heading,
+.news_heading {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price_heading h1,
+.appoinment_heading h1,
+.dentist_heading h1,
+.news_heading h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 50.4px;
+  color: black;
+}
+.pricing_underline,
+.appoinment_underline,
+.dentist_underline,
+.news_underline {
+  height: 5px;
+  width: 10%;
+  background-color: #00aeef;
+  position: relative;
+  left: 560px;
+}
+.pricing_table {
+  height: 90vh;
+  width: 100%;
+  padding: 50px;
+}
+.pricing_table table {
+  width: 100%;
+  border-spacing: 4px;
+}
+.pricing_table th {
+  text-align: left;
+  padding: 8px;
+  background-color: #00aeef;
+}
+.pricing_table td {
+  text-align: left;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-top: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-spacing: 30px;
+}
+.readmore_btn {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.read_more_btn,
+.booking_now_btn {
+  padding: 4px 30px;
+  background-color: #40b2df;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+  position: relative;
+  top: -15px;
+  transition: 0.3s;
+  border: 2px solid #40b2df;
+}
+.read_more_btn:hover {
+  background-color: transparent;
+  border: 2px solid #40b2df;
+  color: #40b2df;
+}
+
+/******************** Appoinment form section ******************  */
+
+.book_appoinment {
+  background: url("../Assets/Images/img_8.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+}
+.appoinment_heading h1 {
+  color: white;
+}
+.booing_inputs {
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+}
+.booing_inputs input,
+.booing_inputs select,
+.booing_inputs textarea {
+  margin: 15px 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 20px 220px;
+  font-style: italic;
+  outline: none;
+}
+.booing_inputs select {
+  padding: 20px 226px;
+  appearance: none;
+}
+.booking_now_btn {
+  top: 0;
+  margin-top: 5px;
+  border: 2px solid #40b2df;
+}
+.booking_now_btn:hover {
+  background-color: transparent;
+  border: 2px solid #40b2df;
+  color: #40b2df;
+}
+
+/******************** Our Dentis section ******************  */
+.dr_images {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 40px;
+}
+.bg_color_box_1,
+.bg_color_box_2,
+.bg_color_box_3 {
+  height: 90%;
+  width: 33.3%;
+  background-color: #f4f4f4;
+}
+.bg_color_box_2 {
+  margin-left: 40px;
+}
+.bg_color_box_3 {
+  margin-left: 40px;
+}
+.first_dr_img,
+.second_dr_img,
+.third_dr_img {
+  height: 100%;
+  width: 100%;
+  background: url("../Assets/Images/Expert_1_png.png") no-repeat center
+    center/cover;
+}
+.first_dr_img:hover .dr_social {
+  visibility: visible;
+}
+.second_dr_img:hover .dr_social {
+  visibility: visible;
+}
+.third_dr_img:hover .dr_social {
+  visibility: visible;
+}
+
+.second_dr_img {
+  background: url("../Assets/Images/Expert_3-png.png") no-repeat center
+    center/cover;
+}
+.third_dr_img {
+  background: url("../Assets/Images/Expert_2-png.png") no-repeat center
+    center/cover;
+}
+.dr_social {
+  height: 50px;
+  width: 180px;
+  position: relative;
+  top: 220px;
+  left: 100px;
+  visibility: hidden;
+}
+.dr_social i {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  color: #00aeef;
+  padding: 15px;
+  position: relative;
+  left: 15px;
+  font-size: 20px;
+}
+.dr_social i:hover {
+  background-color: #00aeef;
+  color: white;
+}
+.dr_social i:first-child {
+  padding-left: 16px;
+}
+.dr_social i:nth-child(2) {
+  padding-left: 15px;
+}
+.dr_social i:last-child {
+  padding-left: 16px;
+}
+.dr_name {
+  height: 20%;
+  width: 100%;
+  position: relative;
+  top: 245px;
+  text-align: center;
+}
+.dr_name h3,
+.dr_name p {
+  color: white;
+  padding-top: 10px;
+}
+.dr_name p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.6px;
+}
+
+/******************** Patient Review Section ******************  */
+
+.review_section {
+  background: url("../Assets/Images/img_6.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.review_person_img {
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+.p_img {
+  height: 55%;
+  width: 70%;
+}
+.p_img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin: 60px;
+}
+.review_text {
+  height: 100%;
+  width: 80%;
+  float: right;
+}
+.review_text p,
+.review_text h2 {
+  font-size: 19px;
+  font-family: 400;
+  line-height: 32.4px;
+  font-style: italic;
+  margin-top: 60px;
+  color: white;
+}
+.review_text h2 {
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22.4px;
+}
+.review_text span {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: white;
+}
+
+/******************** Latest News Section ******************  */
+
+.latest_news_section {
+  background-color: #f6f6f6;
+}
+.latest_news_images {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 40px;
+}
+.news_image_1,
+.news_image_2,
+.news_image_3 {
+  height: 100%;
+  width: 33.3%;
+  background-color: #ffffff;
+}
+.news_image_2,
+.news_image_3 {
+  margin-left: 40px;
+}
+.image_2_box,
+.image_1_box,
+.image_3_box {
+  height: 50%;
+  width: 100%;
+}
+.image_1_box img,
+.image_2_box img,
+.image_3_box img {
+  height: 100%;
+  width: 100%;
+}
+.image_1_box {
+  background: url("../Assets/Images/mouth_bacteria_img.webp") no-repeat center
+    center/cover;
+}
+.image_2_box {
+  background: url("../Assets/Images/toothpast_use.webp") no-repeat center
+    center/cover;
+}
+.image_3_box {
+  background: url("../Assets/Images/avoid_drinks.webp") no-repeat center
+    center/cover;
+}
+.img_info {
+  height: 40%;
+  width: 100%;
+  padding: 20px;
+}
+.comments {
+  height: 10%;
+  width: 100%;
+  padding: 20px;
+}
+.comments i {
+  margin-left: 15px;
+  margin-right: 1px;
+  position: relative;
+  top: -10px;
+  color: #00aeef;
+}
+.comments i:first-child {
+  margin-left: 0px;
+}
+.comments span {
+  position: relative;
+  top: -10px;
+}
+
+/******************** Footer Section ******************  */
+
+footer {
+  background: url("../Assets/Images/img_4.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.sections {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 50px;
+}
+.footer_section_1,
+.footer_section_2,
+.footer_section_3,
+.footer_section_4 {
+  height: 80%;
+  width: 25%;
+  margin-top: 45px;
+}
+.footer_section_1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.4px;
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
+}
+.footer_section_2 {
+  margin-left: 30px;
+}
+.footer_section_3 {
+  margin-left: 35px;
+}
+.footer_section_4 {
+  margin-left: 45px;
+}
+.footer_logo,
+.footer_section3 {
+  height: 20%;
+  width: 100%;
+}
+.footer_logo img {
+  margin: 10px 5px;
+}
+
+.footer_section1,
+.footer_section2 {
+  height: 40%;
+  width: 100%;
+}
+.footer_section2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.4px;
+  color: rgb(255, 255, 255);
+}
+.footer_section2 i {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #00aeef;
+}
+.footer_section3 h3 {
+  padding: 20px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.footer_section4 {
+  height: 80%;
+  width: 100%;
+}
+.footer_section4 span {
+  float: right;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.4px;
+}
+.footer_section4 p {
+  padding-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.4px;
+}
+#i {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #00aeef;
+  padding: 8px;
+  top: 32px;
+  left: -44px;
+  position: relative;
+  transition: 0.3s;
+}
+#i:hover {
+  background-color: black;
+}
+.email_input {
+  height: 40px;
+  width: 220px;
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  border: solid 2px black;
+  margin-top: 30px;
+  padding-left: 25px;
+}
+.social_icon_s {
+  height: 30px;
+  width: 100%;
+  margin-top: 30px;
+}
+.social_icon_s i {
+  margin: 5px 10px;
+  color: white;
+  transition: 0.3s;
+}
+.social_icon_s i:hover {
+  color: #00aeef;
+}
+.footer {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer_text {
+  height: 100%;
+  width: 80%;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_text h5 {
+  color: rgb(183, 183, 183);
+}
+
+/******************** Footer section End ******************  */
+
+/******************** Move To Top Button Div ******************  */
+
+.move_to_top {
+  height: 50px;
+  width: 50px;
+  background-color: #00aeef;
+  border-radius: 50%;
+  right: 35px;
+  bottom: 24px;
+  position: fixed;
+}
+.move_to_top i {
+  font-size: 30px;
+  position: relative;
+  left: 12px;
+  top: 9px;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.footer_mobile {
+  display: none;
+}
+
+/******************** Responsive ******************  */
+
+@media screen and (max-width: 667px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .about_us_box_1,
+  .about_us {
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .booking_btn {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .nav_items {
+    width: 100%;
+  }
+  .nav_items ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    text-decoration: none;
+  }
+  .nav_items a {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .home_page,
+  .about_page,
+  .about_us_image,
+  .our_services,
+  .services,
+  .services_img,
+  .pricing_page,
+  .pricing_table,
+  .pricing_table table,
+  .book_appoinment,
+  .booing_inputs,
+  .our_dentist,
+  .first_dr_img,
+  .dr_images {
+    height: auto;
+    width: 100%;
+  }
+  .latest_news_section {
+    display: none;
+  }
+  .home_page h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home_page p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .get_started_btn {
+    margin-left: 25px;
+    margin-bottom: 35px;
+  }
+  .about_icons {
+    display: none;
+  }
+  .first_icon {
+    margin-left: -50px;
+  }
+  .second_icon,
+  .third_icon {
+    margin-left: 60px;
+  }
+  .first_line_icons figcaption,
+  .second_line_icons figcaption {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.4px;
+  }
+  .services_img {
+    right: -10px;
+    top: -100px;
+  }
+  .services_icons h2 {
+    font-size: 30px;
+    line-height: 30.4px;
+  }
+  .our_services_underline {
+    height: 5px;
+    width: 35%;
+  }
+  .pricing_underline {
+    width: 20%;
+    left: 150px;
+  }
+  .appoinment_heading h1 {
+    font-size: 30px;
+  }
+  .appoinment_underline {
+    width: 20%;
+    left: 150px;
+    top: -10px;
+  }
+  .booing_inputs input,
+  .booing_inputs select,
+  .booing_inputs textarea {
+    margin: 15px 10px;
+    padding: 20px 110px;
+  }
+  .booing_inputs input {
+    padding: 20px 100px;
+  }
+  .booing_inputs textarea {
+    padding: 20px 100px;
+    width: 90%;
+  }
+  .booking_now_btn {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .bg_color_box_2,
+  .bg_color_box_3 {
+    margin-left: 10px;
+  }
+  .dr_name {
+    height: 10%;
+    top: 25px;
+  }
+  .dr_name h3,
+  .dr_name p {
+    color: white;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+  .dr_name p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 5.6px;
+    padding-bottom: 10px;
+  }
+  .dentist_underline {
+    left: 160px;
+    width: 20%;
+  }
+  .first_dr_img:hover .dr_social {
+    visibility: hidden;
+  }
+  .second_dr_img:hover .dr_social {
+    visibility: hidden;
+  }
+  .third_dr_img:hover .dr_social {
+    visibility: hidden;
+  }
+  .review_text p {
+    font-size: 13px;
+    line-height: 21.4px;
+    margin-left: 13px;
+  }
+  .review_text h2 {
+    font-size: 19px;
+  }
+  .p_img {
+    height: 50%;
+    width: 100%;
+  }
+  .p_img img {
+    height: 100%;
+    width: 100%;
+    margin: 60px 10px;
+  }
+  .news_heading h1 {
+    font-size: 44px;
+  }
+  .news_underline {
+    left: 120px;
+    width: 30%;
+  }
+  footer {
+    display: none;
+  }
+  .footer_mobile {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_mobile h6 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  
+  .get_started_btn {
+    margin-left: 16px;
+  }
+  .nav_items a {
+    font-size: 11px;
+  }
+  .services_icons h2 {
+    margin-left: -52px;
+  }
+  .our_services_underline {
+    width: 47%;
+    position: relative;
+    left: -46px;
+  }
+  .footer_mobile h6 {
+    font-size: 9px;
+}
+}
+@media screen and (min-width: 1300px) {
+  
+  .pricing_underline {
+    left: 581px;
+  }
+  .read_more_btn {
+    top: 17px;
+  }
+  .appoinment_underline {
+    left: 597px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  
+  .get_started_btn {
+    margin-left: 555px;
+  }
+  .pricing_underline {
+    left: 615px;
+  }
+  .read_more_btn {
+    top: -77px;
+  }
+  .appoinment_underline {
+    left: 627px;
+  }
+  #hsla_dr_name {
+    position: relative;
+    top: 38px;
+  }
+  .dr_social {
+    left: 120px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .get_started_btn {
+    margin-left: 637px;
+  }
+  .get_started_btn,
+  .contact_us_btn {
+    margin-top: 40px;
+  }
+  .read_more_btn {
+    top: -53px;
+  }
+  .pricing_underline {
+    width: 8%;
+    left: 663px;
+  }
+  .appoinment_underline {
+    left: 675px;
+  }
+  .booing_inputs input {
+    padding: 26px 258px;
+  }
+  .booing_inputs select {
+    padding: 26px 265px;
+  }
+  .booing_inputs textarea {
+    padding: 20px 301px;
+  }
+  .dentist_underline {
+    left: 615px;
+  }
+  .news_underline {
+    left: 552px;
+  }
+  #hsla_dr_name {
+    position: relative;
+    top: 77px;
+  }
+  .dr_social {
+    left: 150px;
+  }
+  #i {
+    left: -104px;
+    padding: 9px;
+    top: 31px;
+  }
+  .footer_section2 {
+    position: relative;
+    top: -17px;
+  }
+
+}
+
+@media screen and (min-width: 1560px) {
+
+  .pricing_underline {
+    left: 700px;
+  }
+  .read_more_btn {
+    top: -168px;
+  }
+  .appoinment_underline {
+    left: 701px;
+  }
+  .dentist_underline {
+    left: 649px;
+  }
+  #hsla_dr_name {
+    position: relative;
+    top: 90px;
+  }
+  .dr_social {
+    left: 150px;
+    top: 265px;
+  }
+  .news_underline {
+    left: 584px;
+  }
+  .footer_section2 {
+    position: relative;
+    top: -37px;
+  }
+} 
